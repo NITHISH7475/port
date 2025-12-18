@@ -46,7 +46,7 @@ const techIcons = [
   { name: "Java", icon: "☕" },             
   { name: "SQL", icon: "🛢️" },            
   { name: "Data Structures", icon: "🌳" }, 
-  { name: "Machine Learning", icon: "🧠" }
+  { name: "C", icon: "⚙️" }
 ];
 
 const Skills = () => {

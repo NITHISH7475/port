@@ -16,7 +16,7 @@ const Index = () => {
   ];
 
   const resumeLink = "https://drive.google.com/file/d/1I6U9LGZ4ukjB7ZJObRpUEQopSbg4PajQ/view?usp=sharing";
-  const profileImage = "https://github.com/vishal546x.png"; 
+  const profileImage = "https://github.com/NITHISH7475.png"; 
 
   return (
     <div className="min-h-screen bg-background overflow-hidden">
@@ -51,7 +51,7 @@ const Index = () => {
               transition={{ delay: 0.3 }}
               className="font-display text-2xl md:text-3xl font-medium text-muted-foreground mb-2"
             >
-              Hi, I'm <span className="text-foreground font-bold">Vishal M</span>
+              Hi, I'm <span className="text-foreground font-bold">Nithish Kumar K</span>
             </motion.h2>
 
             <motion.h1
@@ -84,12 +84,7 @@ const Index = () => {
                 <GlowButton variant="primary">Hire Me</GlowButton>
               </Link>
               
-              <a href={resumeLink} target="_blank" rel="noopener noreferrer">
-                <GlowButton variant="secondary">
-                  <Download size={20} className="mr-2 inline" />
-                  Resume
-                </GlowButton>
-              </a>
+              
             </motion.div>
           </motion.div>
 
@@ -195,8 +190,8 @@ const Index = () => {
                 transition={{ delay: 0.4 }}
                 className="flex gap-4"
               >
-                <SocialIcon Icon={Github} href="https://github.com/vishal546x" label="GitHub" color="primary" delay={0} />
-                <SocialIcon Icon={Linkedin} href="https://www.linkedin.com/in/vishalmoorthy/" label="LinkedIn" color="secondary" delay={0.1} />
+                <SocialIcon Icon={Github} href="https://github.com/NITHISH7475" label="GitHub" color="primary" delay={0} />
+                <SocialIcon Icon={Linkedin} href="https://www.linkedin.com/in/nithish-kumar-394536328/" label="LinkedIn" color="secondary" delay={0.1} />
               </motion.div>
             </div>
 

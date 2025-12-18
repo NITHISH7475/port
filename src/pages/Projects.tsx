@@ -5,22 +5,8 @@ import ParticlesBackground from "@/components/ParticlesBackground";
 import ProjectCard from "@/components/ProjectCard";
 
 const projects = [
-  {
-    title: "Heart Disease Prediction",
-    description: "A model which predicts the heart-disease by the given inputs..",
-    image: "https://images.ctfassets.net/ut7rzv8yehpf/1DhC3uX3EeKnjU02LWyTXH/9c82e6ae82662ed5903eafb40d888d90/8_Main_Types_of_Heart_Disease.jpg?w=1800&h=900&q=50&fm=webp",
-    tags: ["HTML", "CSS", "Python"],
-    liveUrl: "https://heart-disease-up6w.onrender.com",
-    githubUrl: "https://github.com/vishal546x/heart_disease.git",
-  },
-  {
-    title: "PlaceMent Prediction",
-    description: " Developed a machine learning model in Python to predict student placement chances based on academic and skill-related data.",
-    image: "https://konversations.com/community/img/stories/500x500/story_107.jpeg",
-    tags: ["HTML", "CSS", "Python"],
-    liveUrl: "https://placement-prediction-ejxe.onrender.com",
-    githubUrl: "https://github.com/vishal546x/placement_prediction.git",
-  },
+  
+  
   {
     title: "College Symposium Website",
     description: "Developed a Website for our department symposium.",

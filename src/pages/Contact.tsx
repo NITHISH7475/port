@@ -7,14 +7,13 @@ import { Mail, MapPin, Phone, Github, Linkedin, ExternalLink } from "lucide-reac
 
 const Contact = () => {
   const contactInfo = [
-    { icon: Mail, label: "Email", value: "vishalmoorthy8471@gmail.com" },
+    { icon: Mail, label: "Email", value: "nithishnityya@gmail" },
     { icon: MapPin, label: "Location", value: "Chennai, Tamil Nadu" },
-    { icon: Phone, label: "Phone", value: "+91 9025711720" },
+    { icon: Phone, label: "Phone", value: "+91 8939017579" },
   ];
 
   // Direct Gmail Link
-  const gmailLink = "https://mail.google.com/mail/?view=cm&fs=1&to=vishalmoorthy8471@gmail.com&su=Project%20Inquiry";
-
+const gmailLink = "https://mail.google.com/mail/?view=cm&fs=1&to=nithishnityya@gmail.com&su=Project%20Inquiry";
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
@@ -134,8 +133,8 @@ const Contact = () => {
               </h3>
               {/* ✅ Added justify-center here */}
               <div className="flex flex-wrap gap-4 justify-center"> 
-                <SocialIcon Icon={Github} href="https://github.com/vishal546x" label="GitHub" color="primary" delay={0} />
-                <SocialIcon Icon={Linkedin} href="https://www.linkedin.com/in/vishalmoorthy/" label="LinkedIn" color="secondary" delay={0.1} />
+                <SocialIcon Icon={Github} href="https://github.com/NITHISH7475" label="GitHub" color="primary" delay={0} />
+                <SocialIcon Icon={Linkedin} href="https://www.linkedin.com/in/nithish-kumar-394536328/" label="LinkedIn" color="secondary" delay={0.1} />
               </div>
             </motion.div>
 

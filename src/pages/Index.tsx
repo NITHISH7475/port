@@ -11,8 +11,8 @@ import { Github, Linkedin, Twitter, Youtube, Instagram } from "lucide-react";
 
 const Index = () => {
   const achievements = [
-    { icon: Code, label: "Projects", value: "3+" },
-    { icon: Award, label: "Certifications", value: "15+" },
+    //{ icon: Code, label: "Projects", value: "3+" },
+    //{ icon: Award, label: "Certifications", value: "15+" },
   ];
 
   const resumeLink = "https://drive.google.com/file/d/1I6U9LGZ4ukjB7ZJObRpUEQopSbg4PajQ/view?usp=sharing";
@@ -51,7 +51,7 @@ const Index = () => {
               transition={{ delay: 0.3 }}
               className="font-display text-2xl md:text-3xl font-medium text-muted-foreground mb-2"
             >
-              Hi, I'm <span className="text-foreground font-bold">Nithish Kumar K</span>
+              Hi, I'm <span className="text-foreground font-bold">Nithish Kumar N</span>
             </motion.h2>
 
             <motion.h1
@@ -167,9 +167,7 @@ const Index = () => {
                 transition={{ delay: 0.2 }}
                 className="font-body text-lg text-muted-foreground mb-6 leading-relaxed"
               >
-                I'm a passionate full-stack developer with expertise in building scalable web applications. 
-                With over 5 years of experience, I've worked with startups and enterprises to deliver 
-                high-quality software solutions.
+                I’m passionate about programming and problem-solving, with hands-on experience in Java, C, and Python. I enjoy tackling logical and algorithmic challenges that push my thinking and help me grow as a developer.
               </motion.p>
 
               <motion.p
@@ -179,8 +177,7 @@ const Index = () => {
                 transition={{ delay: 0.3 }}
                 className="font-body text-lg text-muted-foreground mb-8 leading-relaxed"
               >
-                My tech stack includes React, Node.js, TypeScript, Python, and cloud technologies. 
-                I love solving complex problems and turning ideas into reality through code.
+                I’m continuously learning and strengthening my core programming skills, with a strong interest in understanding how software works and turning ideas into reliable code.
               </motion.p>
 
               <motion.div

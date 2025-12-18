@@ -8,12 +8,12 @@ const projects = [
   
   
   {
-    title: "College Symposium Website",
-    description: "Developed a Website for our department symposium.",
-    image: "https://chipcomm25.web.app/logo.jpg",
-    tags: ["HTML", "CSS", "JS"],
-    liveUrl: "https://chipcomm25.web.app/",
-    githubUrl: "https://github.com",
+    title: "Health Log Book",
+    description: "Developed a health log book web application to monitor and manage personal health records effectively.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDwM0XZSmSPXJp0qyHEpAM3n5nOXMQRvUJog&s",
+    tags: ["Java"],
+  
+    githubUrl: "https://github.com/NITHISH7475/healthlogbook.git",
   },
   //{
   //  title: "Social Media Analytics",
